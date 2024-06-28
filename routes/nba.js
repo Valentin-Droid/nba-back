@@ -8,6 +8,7 @@ router.get('/teams', async (req, res) => {
     const data = await getNbaTeams();
     res.json(data);
   } catch (error) {
+    console.error(error);
     res.status(500).send('Internal Server Error');
   }
 });

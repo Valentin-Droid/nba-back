@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "prepare": "husky",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "lint": "eslint ."
   },
   "type": "module",
   "keywords": [],
@@ -15,8 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.5.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.3",
+    "eslint": "^9.5.0",
     "globals": "^15.6.0",
     "husky": "^9.0.11",
     "nodemon": "^3.1.0",
