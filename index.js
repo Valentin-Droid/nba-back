@@ -3,7 +3,6 @@ import { router as nbaRouter } from './routes/nba.js';
 import { corsMiddleware } from './middlewares.js';
 import 'dotenv/config';
 
-
 const app = express();
 const PORT = 3000;
 

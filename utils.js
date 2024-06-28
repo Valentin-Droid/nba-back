@@ -6,8 +6,8 @@ export async function getNbaTeams() {
     url: 'https://api-nba-v1.p.rapidapi.com/teams',
     headers: {
       'X-RapidAPI-Key': process.env.NBA_API_KEY,
-      'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com'
-    }
+      'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com',
+    },
   };
 
   try {

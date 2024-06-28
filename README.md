@@ -1,9 +1,11 @@
 # NBA Teams API Platform
 
 ## Introduction
+
 Ce projet est une plateforme API permettant de consulter des informations sur les équipes NBA. Il se compose d'un front-end construit avec Next.js et d'un back-end développé avec Node.js. L'API permet aux utilisateurs de se connecter via Google ou GitHub et d'accéder à la liste des équipes NBA.
 
 ## Fonctionnalités
+
 - Connexion avec Google ou GitHub
 - Affichage des équipes NBA
 - Déconnexion sécurisée
@@ -12,11 +14,11 @@ Ce projet est une plateforme API permettant de consulter des informations sur le
 
 <img src="https://github.com/Valentin-Droid/NBA-Teams-API-Platform/assets/63446112/7765334b-c081-4fae-8202-d2ebe014eaed" width="400px" />
 
-*Écran de connexion avec options de login via Google et GitHub.*
+_Écran de connexion avec options de login via Google et GitHub._
 
 <img src="https://github.com/Valentin-Droid/NBA-Teams-API-Platform/assets/63446112/2969a846-eeab-498c-8ac6-68ad4b7536bf" width="800px" />
 
-*Vue des équipes NBA accessibles après connexion.*
+_Vue des équipes NBA accessibles après connexion._
 
 ## Installation
 
